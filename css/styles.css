@@ -1,9 +1,12 @@
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #e0e2ee;
+    background-image: url(https://images.unsplash.com/photo-1457129962825-adcaea7406c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1887&q=80);
+    backgroung-size: auto 100%;
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: 'Prompt', sans-serif;
 }
 
 h2 {
@@ -11,20 +14,27 @@ h2 {
 }
 
 header h2 {
+    
     color: #CEC8FF;
 }
 
 .site-footer {
     background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
-.jumbotron {
+/* .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046c5, #60106B);
-    color: white;
-}
+    background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+    background-size: auto 100;
+    color: rgb(116, 93, 64);
+} */
+
+.jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    height: auto 100%; }
 
 .row-content {
     padding: 50px 0;
@@ -33,11 +43,28 @@ header h2 {
 }
 
 .navbar-dark {
-    background-color: #901cad;
+    background-color: #d69d66;
 }
 
 .tab-content {
     border: 1px solid #DDD;
     border-top: none;
     padding: 10px;
+}
+
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637dd;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100%;
 }
